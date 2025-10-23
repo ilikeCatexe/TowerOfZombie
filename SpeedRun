@@ -187,7 +187,7 @@ local Tab = Window:Tab({Title = "LocalPlayer", Icon = "book-user"}) do
         Title = "Teleport to The Top",
         Desc = "Instantly teleport you to the top (the end/boss room) of the map",
         Callback = function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.Position = workspace.AwaitingBosses.Boss.Position + Vector3.new(0,10,0)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.Position = workspace.AwaitingBosses.Boss.Position + Vector3.new(0,3.5,0)
         end
     })
 end
