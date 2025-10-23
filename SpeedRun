@@ -1,4 +1,5 @@
--- Free
+-- Open Source
+
 -- Load UI Library
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2zu/OPEN-SOURCE-UI-ROBLOX/refs/heads/main/X2ZU%20UI%20ROBLOX%20OPEN%20SOURCE/DummyUi-leak-by-x2zu/fetching-main/Tools/Framework.luau"))()
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
@@ -188,7 +189,7 @@ local Tab = Window:Tab({Title = "LocalPlayer", Icon = "book-user"}) do
         Title = "Teleport to The Top",
         Desc = "Instantly teleport you to the top (the end/boss room) of the map",
         Callback = function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.Position = workspace.AwaitingBosses.Boss.Position + Vector3.new(0,1,0)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.Position = workspace.AwaitingBosses.Boss.Position + Vector3.new(0,1.5,0)
         end
     })
 end
